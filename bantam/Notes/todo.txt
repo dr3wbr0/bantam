@@ -1,0 +1,43 @@
+﻿ICE BOX
+  * ? - sql feature  
+  * ? - global XML for proxy settings so it saves?
+  * ? - distributed fucking, dirbuster
+  * ? - tunnel feature, right click a client set them as the tunnel, all traffic will go through them first, have an icon to display who's the tunnel, unset tunnel, test communication etc
+
+  * ? - stager stuff in session to reduce request size / encryption - should have option to send as stager or already be uploaded
+  * ? - windows reverse shell / console via power shell & perl
+  * ? - fix windows caveats
+  * ? - make row and col seperator random
+  * ? - add chunking into requests specifically file uploader
+  * ? - password feature / require useragent feature
+  * ? - global cfg option to enable disable error suppression via @ to see more debug data
+  * ? - read file size limit check & mime check/show pictures in picture control
+  * ? - proxy support credentials
+  * ? - bantam mini deployment for persistance / eventuallly tracking and communication with it?
+  * ? - consider making display_errors ini_set Off a stager option or options
+  * ? - allowable charector check on var name of backdoor generator
+  * ? - timeout on the fsock side of the port scanner (make as a controllable option/var)
+  * ? - strerev payload or parts of the payload and put it back together / payload b64 letter swapping XD / rot13
+  * ? - chankro implementation needs more testing on servers it's known to work with
+  * ? - bypass disabled_functions with mod_cgi and .htaccess
+  * ? - add custom $_SERVER http_verb as vector for sending data
+  * ? - add a save settings feature to reverse shell form
+  * ? - add a shell code execution vector to reverse shell form, inherit current global options setting
+  * ? - consider converting to (System.Security.Cryptography.SymmetricAlgorithm.GenerateIV() && System.Security.Cryptography.SymmetricAlgorithm.GenerateKey())
+  * ? - recolor files in browser based on perms - possibly as a feature to send the code to run on server side
+  * ? - getting previous function caller name will require stacktrace, and more resources so make it an option in the UI not a default
+  * ? - tarball/gzip directories :D:D:
+  * ? - remove a line from file containing X string via sed "clear log"
+  * ? - ensure calls needing a timeout have one
+  * ? - system code execution should support a barrage method
+  * ? - option to show php payloads in the logs
+  * ? - touch feature
+  * ? - passwd bypass
+  * ? - Add Logs when an operation times out
+  * ? - todo make upload vectors from URL dynamic and load from CFG
+  * ? - make linux & windows console command vectors dynamic and load from CFG
+  * ? - make global timeout override for port scanning but inherit the global timeout to use as the default timeout
+  * ? - show response codes in mass eval / other excution response showings
+  * ? - save as plugin feature from mass eval?
+  * ? - add select file to mass eval
+  * ? - COOKIE RESPONSE BACK?
